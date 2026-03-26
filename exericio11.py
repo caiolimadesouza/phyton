@@ -13,10 +13,10 @@ match forma_pgto:
         print(f"O desconto foi de (desc), você pagara {valor - desc}")
     case 3: 
         desc = valor /2
-        print(f"O desconto foi de (desc), você pagara{valor - desc}")
+        print(f"você pagara 2x de{valor - desc}")
     case 4:
-        acrecimo = valor * 0.7
-        parcela = (valor + acrecimo)
-        print(f"o valor do produto será de{valor + acrecimo} em 4x {parcela}")
+        acrescimo = valor * 0.7
+        parcela = (valor + acrescimo)
+        print(f"o valor do produto será de{valor + acrescimo} em 4x {parcela}")
     case _:
         print("forma de pagamento invalida")
